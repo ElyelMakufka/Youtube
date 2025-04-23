@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <button class="menu-btn">☰</button>
+        <div class="logo-container">
+            <img src="Imagens/Youtube.svg" alt="YouTube Logo" class="youtube-logo"> 
+            <h1 class="logo">Youtube</h1><sup>BR</sup>
+        </div>
+        <div class="search-bar-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar">
+                <button class="keyboard-btn">⌨️</button>
+                <button class="search-btn">🔍</button>
+            </div>
+            <button class="mic-btn">🎤</button>
+        </div>
+        <button class="more-options-btn">⋮</button>
+        <button class="login-btn">Fazer Login</button>
+        <button id="theme-toggle-btn">💡</button> 
+    </header>
+
+    <main class="main-container">
+        <!-- Grid principal para o vídeo -->
+        <section class="video-container">
+            <div class="video-grid">
+                <iframe 
+                    src="Videos/Gorillaz.mp4" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-description" style="background-color: #333; color: #d3d3d3; padding: 15px; border-radius: 10px;">
+                <h2>Gorillaz - Tarantula</h2>
+                <pre style="white-space: pre-wrap; font-family: inherit; color: inherit;">
+1.109.881 visualizações                                                                                                                                                24 de fev. de 2023  
+
+#gorillaz #crackerisland #tarantula
+#crackerisland #gorillaz #tarantula
+Gorillaz - Tarantula (Official Audio)
+Listen to the album Cracker Island gorill.az/crackerisland
+Purchase the album https://gorillaz.com
+Join #thelastcult https://thelastcult.org
+Listen to Gorillaz: https://gorill.az/listen
+Shop Gorillaz store.gorillaz.com
+
+Follow Gorillaz:  
+https://gorillaz.com
+
+#tarantula #gorillaz #crackerisland
+                </pre>
+            </div>
+        </section>
+
+        <!-- Barra lateral para sugestões -->
+        <aside class="sidebar">
+            <div class="suggestion">
+                <img src="Imagens/Gorillaz.jpg" alt="Gorillaz - Momentary Bliss">
+                <p>Gorillaz - Momentary Bliss</p>
+               
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/TheSmiths.jpg" alt="The Smiths - There Is a Light That Never Goes Out">
+                <p>The Smiths - There Is a Light That Never Goes Out</p>
+                
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/Nujabes.jpg" alt="Nujabes - Luv (Sic)">
+                <p>Nujabes - Luv (Sic)</p>
+                
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/Queen.jpg" alt="Queen - Bohemian Rhapsody">
+                <p>Queen - Bohemian Rhapsody</p>
+                
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/SureSure.jpg" alt="Sure Sure - Funky Galileo">
+                <p>Sure Sure - Funky Galileo</p>
+                
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/CorpoeAlma.jpg" alt="Corpo e Alma - Aquela dos Olhos Negros">
+                <p>Corpo e Alma - Aquela dos Olhos Negros</p>
+                
+            </div>
+            <div class="suggestion">
+                <img src="Imagens/Nazareth.jpg" alt="Nazareth - Love Hurts">
+                <p>Nazareth - Love Hurts</p>
+                
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
